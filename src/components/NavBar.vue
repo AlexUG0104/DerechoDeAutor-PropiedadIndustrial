@@ -87,10 +87,14 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   display: flex;
   align-items: center;
   justify-content: center;
+  background: white;
+  padding: 2px 6px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .logo-img {
-  height: 36px;
+  height: 52px;
   width: auto;
   object-fit: contain;
 }
@@ -99,7 +103,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   display: none;
   align-items: center;
   justify-content: center;
-  height: 36px;
+  height: 52px;
   padding: 0 0.75rem;
   background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   color: white;
@@ -116,7 +120,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 .logo-divider {
   width: 1px;
-  height: 28px;
+  height: 36px;
   background: rgba(29, 78, 216, 0.2);
 }
 
@@ -187,8 +191,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
     top: 70px;
     left: 0;
     right: 0;
-    background: rgba(255,255,255,0.98);
-    backdrop-filter: blur(20px);
+    background: #ffffff;
     padding: 1rem;
     gap: 0.25rem;
     box-shadow: 0 10px 40px rgba(0,0,0,0.12);

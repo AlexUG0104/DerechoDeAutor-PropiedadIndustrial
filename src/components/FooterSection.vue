@@ -101,13 +101,13 @@
   display: flex;
   align-items: center;
   background: white;
-  padding: 4px 8px;
+  padding: 6px 12px;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
 }
 
 .footer-logo-img {
-  height: 32px;
+  height: 48px;
   width: auto;
   opacity: 1;
 }
@@ -116,7 +116,7 @@
   display: none;
   align-items: center;
   justify-content: center;
-  height: 36px;
+  height: 48px;
   padding: 0 0.75rem;
   background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   color: white;
@@ -133,7 +133,7 @@
 
 .footer-logo-divider {
   width: 1px;
-  height: 28px;
+  height: 44px;
   background: rgba(255, 255, 255, 0.15);
 }
 

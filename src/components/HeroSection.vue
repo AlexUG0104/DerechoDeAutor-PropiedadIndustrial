@@ -101,7 +101,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 7rem 0 5rem;
+  padding: 7rem 0 8.5rem;
 }
 
 /* Background */
@@ -210,10 +210,14 @@
   display: flex;
   align-items: center;
   gap: 0.625rem;
+  background: white;
+  padding: 4px 10px;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .hero-logo-card img {
-  height: 40px;
+  height: 64px;
   width: auto;
   opacity: 1;
 }
@@ -245,7 +249,7 @@
 
 .hero-logo-divider {
   width: 1px;
-  height: 36px;
+  height: 48px;
   background: rgba(0, 0, 0, 0.15);
 }
 
@@ -393,7 +397,6 @@
   flex-shrink: 0;
 }
 
-/* Scroll indicator */
 .scroll-indicator {
   position: absolute;
   bottom: 2rem;
@@ -403,12 +406,15 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: rgba(255,255,255,0.5);
+  color: var(--color-cyan-400);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   animation: bounce 2s ease-in-out infinite;
+  z-index: 10;
 }
 
 .scroll-text {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -434,10 +440,22 @@
     padding: 0.75rem 1.25rem;
   }
 
+  .hero-logo-card {
+    padding: 3px 8px;
+  }
+
+  .hero-logo-card img {
+    height: 44px;
+  }
+
   .stat-item { padding: 0 1rem; }
 
   .hero-stats {
     gap: 0.5rem;
+  }
+
+  .scroll-indicator {
+    display: none;
   }
 }
 
