@@ -53,7 +53,7 @@
           &copy; 2026 Universidad de Costa Rica. Todos los derechos reservados.
         </p>
         <p class="credits">
-          Desarrollado con ❤️ por el equipo del TCU de Derechos de Autor y Propiedad Industrial
+          Desarrollado por el equipo del TCU de Derechos de Autor y Propiedad Industrial
         </p>
       </div>
     </div>
