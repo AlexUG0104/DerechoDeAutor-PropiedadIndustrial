@@ -41,7 +41,7 @@
           <p class="institution-name">Universidad de Costa Rica</p>
           <p class="tcu-name">Trabajo Comunal Universitario (TCU)</p>
           <div class="location-info">
-            <span>San José, Costa Rica</span>
+            <span>Liberia, Guanacaste, Costa Rica</span>
             <span>Año 2026</span>
           </div>
         </div>
